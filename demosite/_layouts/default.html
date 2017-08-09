@@ -3,8 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<<<<<<< HEAD
     <title>{% if page.title %}{{ page.title }}{% else %}Great web agency{% endif %}</title>
     <meta name="description" content="">
+=======
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <base href="{{ site.url }}">
+>>>>>>> c5bef830467a4d46f8482be1e00410b5d7bb7474
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     
@@ -45,6 +51,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
+<<<<<<< HEAD
           <!-- header Nav Start -->
           <nav class="navbar navbar-default">
             <div class="container-fluid">
@@ -72,6 +79,9 @@
                 </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->
             </nav>
+=======
+{% include nav.html %}
+>>>>>>> c5bef830467a4d46f8482be1e00410b5d7bb7474
           </div>
         </div>
       </div>
@@ -85,6 +95,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
+<<<<<<< HEAD
             <div class="footer-manu">
               <ul>
                 <li><a href="#">About Us</a></li>
@@ -94,6 +105,11 @@
                 <li><a href="#">Terms</a></li>
               </ul>
             </div>
+=======
+
+{% include footer-nav.html %}
+
+>>>>>>> c5bef830467a4d46f8482be1e00410b5d7bb7474
             <p>Copyright &copy; Design & Developed by <a href="http://www.themefisher.com">Themefisher</a>. All rights reserved.</p>
           </div>
         </div>
