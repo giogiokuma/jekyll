@@ -5,6 +5,8 @@ date: 2017-07-23 11:25
 author: Misako Ohata
 image: http://placehold.it/900x300
 lead: "We pay a huge proce for the underlying complexity of dynamic code running on a server for every request - a price we could avoid paying entirely when this kind of complexity is not needed."
+categories: jekyll
+subtitle: Create a ultra fast, secure blog and easy to scale
 ---
 
 
